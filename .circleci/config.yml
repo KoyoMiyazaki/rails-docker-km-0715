@@ -9,7 +9,7 @@ jobs:
       - image: circleci/ruby:2.7
     working_directory: ~/rails-docker-km-0715/src
     steps:
-      - checkout
+      - checkout:
           path: ~/rails-docker-km-0715
       - ruby/install-deps
   
